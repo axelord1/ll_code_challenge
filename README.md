@@ -1,13 +1,3 @@
-# ll_code_challenge
-
-[Instructions](#instructions)<br />
-
-Clone the repo and push up your changes and share link.
-
-Using Protractor or WebDriverIO
-Bonus points for leveraging a BDD tool.
-
-
 Notes specific to roberto_munoz_ll_challenge branch
 
 these were the packages needed to be installed before attempting to run:
