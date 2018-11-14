@@ -7,17 +7,13 @@ Clone the repo and push up your changes and share link.
 Using Protractor or WebDriverIO
 Bonus points for leveraging a BDD tool.
 
-Fork this Repo<br />
-Create a branch and name it with your "firstname_lastname_LL_challenge"<br />
-Make sure to update your README to show how to run your scripts<br />
-Fulfill the following two scenarios<br />
-Once complete push your branch up
 
-Feature: Automate<br /> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As an Engr. Candidate<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I need to automate  http://www.way2automation.com/angularjs-protractor/webtables/<br /> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So I can show my automation capabilities<br />
-    
-Scenario: Add a user and validate the user has been added to the table<br />
+Notes specific to roberto_munoz_ll_challenge branch
 
-Scenario: Delete user User Name: novak and validate user has been deleted<br />
+these were the packages needed to be installed before attempting to run:
+npm install -g protractor
+npm install -g jasmine
+webdriver-manager update
+
+Command to run the tests:
+protractor protractor.conf.js
